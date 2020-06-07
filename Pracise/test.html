@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>My first page</title>
+</head>
+
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="firstname">First name:</label>
+		<input type="text" placeholder="First name" id="firstname" required>
+		<label for="lastname">Last name:</label>
+		<input type="text" placeholder="Last name" id="lastname" required>
+		<div>
+			<label for="femal">Female</label>
+			<input type="radio" name="gender" id="female" value="female" checked>
+			<label for="male">Male</label>
+			<input type="radio" name="male" id="male" value="male">
+			<label for="other">Other</label>
+			<input type="radio" name="other" id="other" value="other">
+		</div>
+
+		<div>
+			<label for="email">Email:</label> 
+			<input type="text" name="email" id="email" value="email" required>
+			<label for="password">Password:</label>
+			<input type="text" name="password" id="password" id="password" value="password" required>
+		</div>
+		<div>
+			<label for="birthday">Birthday</label>
+			<input type="date" name="birthday">
+		</div>
+		<p>I agree t`o the terms and conditions <input type="checkbox" name="terms"></p>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
